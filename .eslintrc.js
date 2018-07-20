@@ -22,6 +22,7 @@ module.exports = {
         "objectsInObjects": false,
       },
     ],
+    "linebreak-style": "off",
   },
   "env": {
     "browser": true,
