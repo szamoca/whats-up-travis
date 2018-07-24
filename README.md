@@ -19,9 +19,11 @@ Useful sources for this project were different videos and written tutorials.
 
 1. [React & Webpack from scratch - Traversy Media](https://www.youtube.com/watch?v=deyxI-6C2u4&t=927s)
 2. [airbnb eslint for React - Ben Awad](https://www.youtube.com/watch?v=iEBaSjYaOWs&t=162s)
+3. [How to load images with Webpack - ihatetomatoes](https://www.youtube.com/watch?v=cDLfpth5a3s)
 
 ### Repos / Articles
 
 1. [Hello, Green Fox Academy - GFA\beltekylevi](https://github.com/green-fox-academy/teaching-materials/blob/react-0th-week-project/material/react/simple-golden-acorn-app/hello-green-fox-academy.md)
 2. [Webpack 3 Quickstarter - Hacker Noon](https://hackernoon.com/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a)
 3. [eslint loader](https://github.com/webpack-contrib/eslint-loader)
+4. [Webpack Configuration for Using Bootstrap in React](https://medium.com/@vladbezden/webpack-configuration-for-using-bootstrap-in-react-a6ef2dfa1d95)
