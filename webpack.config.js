@@ -7,6 +7,9 @@ module.exports = {
     path: path.join(__dirname, '/dist'),
     filename: 'bundle.js',
   },
+  devServer: {
+    contentBase: path.join(__dirname, '/dist/assets'),
+  },
   module: {
     rules: [
       {
@@ -15,6 +18,17 @@ module.exports = {
         use: {
           loader: 'babel-loader',
         },
+      },
+      {
+        test: /\.css$/,
+        loader: [
+          'style-loader',
+          'css-loader',
+        ],
+      },
+      {
+        test: /\.png$|\.jpg$/,
+        use: 'file-loader',
       },
     ],
   },
