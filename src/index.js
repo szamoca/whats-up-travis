@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import 'bootstrap/dist/css/bootstrap.css';
+import SimpleCounterApp from './components/SimpleCounterApp';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<SimpleCounterApp />, document.getElementById('app'));
